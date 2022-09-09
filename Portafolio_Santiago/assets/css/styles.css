@@ -1,0 +1,56 @@
+:root {
+    --white: #FFFFFF;
+    --white-light: #f2f5e0;
+    --yellow: #EF9919;
+    --grey: #a8a884cb;
+    --green: #197F5B;
+}
+body {
+    background-color: var(--white);
+    color: var(--black);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+ 
+/*================ helpers ==============*/
+.text-yellow {
+    color:var(--yellow)!important;
+}
+.text-white {
+    color:var(--white);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-white-light {
+    background-color: var(--white-light);
+}
+/*================ components ============*/
+.caja { 
+    font-family:"Poppins"; 
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 400; 
+    text-align: center; 
+    background: #889ccf; 
+    margin: 0 0 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #3b8ea3;
+}
+
+.intro-overlay {
+    height: 45vh;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.section {
+    padding: 30px 0;
+}
